@@ -1,0 +1,20 @@
+/* Sobrescrevendo estilos específicos */
+.nav-link {
+    color: black !important;
+}
+
+.nav-link.active {
+    color: blue !important;
+    font-weight: bold;
+}
+
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
